@@ -2,7 +2,7 @@
 
 
 ## Best Random Number Generator! 
---- 
+
 ```
 % generates a random number given a set number of rolls 
 int randomnumbergenerator(int rolls) {
