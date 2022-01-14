@@ -1,4 +1,4 @@
-# SSH Connecting on ieng6! (Remote Access) 
+# Lab Report 1: SSH Connecting on ieng6! (Remote Access) 
 
 ## What is remote access? 
 In layman's terms, we want to connect to a server from where we are (client side) in order to run specific things that we can't or would cause too much of a hassle to do on our own machines. Remote access allows us to work on things even though we are hundreds of miles away from a server! 
