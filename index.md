@@ -1,5 +1,4 @@
-# jelloooo it is time to code! 
-
+# Jello! Time to Code! 
 
 ## Best Random Number Generator! 
 
