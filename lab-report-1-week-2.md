@@ -118,8 +118,11 @@ Try this command:
 
 **Note:** I used quotation marks "" in order to run a command on the server and used ';' in order to seperate commands that I wanted it to run.
 
-**Note:** Additionally, to minimize overall keystrokes, we can use the up and down keys to reuse commands that we have already used before! This saves plenty of time, since we don't always have to remember certain commands and accounts just to run our code. 
+**Another Note:** Additionally, to minimize overall keystrokes, we can use the up and down keys to reuse commands that we have already used before! This saves plenty of time, since we don't always have to remember certain commands and accounts just to run our code. 
 
+This could be especially useful if we already have typed out a command we want to use say, 
+
+```ssh cs15wi22xx@ieng6.ucsd.edu "javac Where Am I.java" ```
 
 It should all look like this! 
 
