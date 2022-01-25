@@ -43,15 +43,15 @@ Wow!!! Now you're logged into a computer in the CSE basement, congrats!
 When we're writting programs and such, we want to be able to control and view everything at ease. Although visually is easier, it does become very slow overtime, so that's why we have to know some commands! 
 
 Here are some 
-* cd - Stands for change directory, you can use this to navigate through the directory. 
-* pwd - Shows the working directory, this is incredibly useful for finding our current path. 
-* mkdir - Makes a new directory! Simple! 
-* ls - Shows us *all* the files, it excludes the hidden ones, but slap a '-a' on the back of that command and that gives us all the files
+* `cd` - Stands for change directory, you can use this to navigate through the directory. 
+* `pwd` - Shows the working directory, this is incredibly useful for finding our current path. 
+* `mkdir` - Makes a new directory! Simple! 
+* `ls` - Shows us *all* the files, it excludes the hidden ones, but slap a '-a' on the back of that command and that gives us all the files
 
-Here's an example of 'ls' vs 'ls -a: 
+Here's an example of `ls` vs `ls -a`: 
 ![image](lsvslsa.png)
 
-And here is an example of 'pwd': 
+And here is an example of `pwd`: 
 ![image](pwdexam.png)
 
 # Step 4: Moving Files with scp
@@ -107,6 +107,10 @@ Ans: It makes it private! This is quite useful in file management because we don
 # Step 6: Optimizing Remote Running
 To make using ssh even faster, we can combine commands by running certain things together. 
 
+The overall objective of this is to minimize time spent, so we have to optimize our overall number of keystrokes. 
+
+Did you know that copying a file to another place and then running it can be done under 10 keystrokes (including all typing and mouse clicking)! 
+
 Say I wanted to connect to ieng6, run javac WhereAmI.java and java WhereAmI on the server, then I can actually do it all in one line! 
 
 Try this command: 
@@ -114,9 +118,16 @@ Try this command:
 
 **Note:** I used quotation marks "" in order to run a command on the server and used ';' in order to seperate commands that I wanted it to run.
 
+**Note:** Additionally, to minimize overall keystrokes, we can use the up and down keys to reuse commands that we have already used before! This saves plenty of time, since we don't always have to remember certain commands and accounts just to run our code. 
+
+
 It should all look like this! 
 
 ![image](multicommands.png)
+
+
+
+
 
 
 ## Happy Hacking! 
