@@ -33,7 +33,7 @@ This gives us the following:
 
 ![image](imagecorrect.png)
 
-### Woohoo! We fixed our first bug! :joy:
+ Woohoo! We fixed our first bug! :joy:
 
 ---
 
