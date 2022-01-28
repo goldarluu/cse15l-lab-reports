@@ -2,8 +2,8 @@
 
 In this lab report, we will go over 3 issues that we encountered while working on a MarkdownParse reader, which reads links of a markdown file and outputs all the valid links. 
 
-All files and images can also be found at this 
-[repository](repo). 
+All files and images of this MarkdownParse can also be found at this 
+[repository](https://github.com/goldarluu/markdown-parse). 
 ## **Issue 1: If there is an image, instead of a link**
 
 Given that a link format is similar to a image format, it is bound to fail at some point. 
