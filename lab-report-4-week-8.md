@@ -60,8 +60,11 @@ Here is the output we are expecting accord to VSCode Preview! This essentially w
 
 ![image](snippetExpectedOutput.png)
 
+<br>
+
 ---
- 
+
+<br>
 ## How did I turn it into a test? What is wrong and what is right?
 
 Through doing this lab, I started realizing that just because a link has an underline underneath it, and can link us to the right place; it doesn't mean it is formated correct!
@@ -83,11 +86,11 @@ That is the only valid link according to both VScode and commonmark.org.
 Below, I have attached the test I created in `MarkdownParseTest.java`: 
 ![image](3snippettestin.png)
 
+<br>
 
---- 
+---
 
-
-
+<br>
 ## We must know our errors before looking at others 
 
 My repository is located [here](https://github.com/goldarluu/markdown-parse), however my group's respository that was sent for fixing can be found [here!])(https://github.com/LippsVega/markdown-parse). (They're basically identical)
@@ -97,8 +100,7 @@ Here is the outout, after running `make test`:
 
 It's a sad day to be my program :(. All the tests had failed, but now we get to analyze them and find out why! 
 
-
-
+<br>
 
 ### Snippet 1 
 
@@ -115,6 +117,8 @@ As one can see, our code got two things wrong: the `url.com` link and `ucsd.edu`
 **Can it be fixed quickly?**
 Since our program relies on finding the brackets and checking before it, fixing this issue would be multi-line, long and extensive fix. It is because you have to consider the fact that the backtick might start at *any* given place, which makes it hard to consider the infinite edge cases that exists. 
 
+<br>
+
 ### Snippet 2 
 
 Running a similar command as before:
@@ -130,7 +134,7 @@ On a good note, we got the nested link, which is what VSCode preview wanted! How
 **Can it be fixed quickly?**
 Honestly, since it passed the first case, which in my opinion is one of the harder edge cases, I believe this would be a simple fix. We would just have to find the last occurence of ")" before any other character  after encountering a "[".
 
----
+<br>
 
 ### Snippet 3 
 
@@ -162,7 +166,11 @@ it would work! Adding the http:// without any empty line breaks allows it to wor
 
 Through this lab I learned one very important thing: white spaces that arise from new lines. According to commonmark and VSCode preview, almost every line that I tested subsequently that had a line break in the title or in the link itself, did not work! However, for the point of this lab, we will not consider this to be in the **"correct"** format
 
---- 
+<br>
+
+---
+
+<br>
 
 ## Now lets take a look at the other groups work! 
 
@@ -173,6 +181,7 @@ Here is the outout, after running `make test`:
 
 I was shocked myself! I had to check and recompile everything by manually typing, because they literally behave the same exact way. 
 
+<br>
 
 ### Snippet 1 
 Here is the output of the error from JUnit Testing:  
@@ -183,6 +192,8 @@ Exact same mistakes from my group,
 **Is there a quick fix?** 
 Looking at their code, I believe that would not be a quick fix for the backtics. As from one of the lines that reads `if(markdown.indexof("!) == 0)`, I personally don't believe that considering case by case would be smart. Even if we ignored everything in the middle of two backticks, we would not pass the "another link`" edge case. 
 
+<br>
+
 
 ### Snippet 2 
 Here is the output of the error from JUnit Testing: 
@@ -191,7 +202,7 @@ Here is the output of the error from JUnit Testing:
 **Is there a quick fix?** 
 Since the algorithm of this group is really similar to ours, I believe there is a quick fix with the same idea as ours. After we encounter a "(", we search all the way until we find the last ")" before an opening "[" that indicates a new link. 
 
-
+<br>
 
 ### Snippet 3
 Here is the output of the error from JUnit Testing: 
