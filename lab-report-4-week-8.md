@@ -62,7 +62,7 @@ Here is the output we are expecting accord to VSCode Preview! This essentially w
 
 ---
  
-## How did I turn it into a test? What is wrong and what is correct? 
+## How did I turn it into a test? What is wrong and what is right?
 
 Through doing this lab, I started realizing that just because a link has an underline underneath it, and can link us to the right place; it doesn't mean it is formated correct!
 
