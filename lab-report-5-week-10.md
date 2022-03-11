@@ -107,13 +107,18 @@ The instructors output:
 
 By looking at the output of both, we can see that both implementation passed the second part of the test where it states `[foo]: /url1`, which is good because a markdown file would not count that. However, the instructors implementation would be correct this time because when we input the first line into a markdown file, it doesn't recognize the words "not a link" as a *valid* link. 
 
-Here it is shown below, as you can see, it is not a link at all. 
+This is the link output in VSCode Preview, and as you can see it is not a *valid* link. 
+
+![image](notavalidlink.png)
 
 [foo](not a link)
 
 A bug that we should consider is that if there is a space within the link, then the link should not be considered, but however it is weird because of the case we considered above, there was a space but that link was valid. So we have to come up with some intuitive way to consider the case that there can be spaces if there is a `/url` element, but no spaces if there isn't. 
 
---- 
+<br>
+
+---
+ 
 <br>
 
 
