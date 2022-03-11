@@ -22,7 +22,7 @@ done
 
 Then to compare the differences between the two files (one in my own personal markdown-parse and one in the instructors markdown-parse), I used this command: 
 
-`diff mainMarkdownParse/markdown-parse/results.txt myMarkdownParse/markdown-parse/results.txt`
+`diff mainMarkdownParse/markdown-parse/results.txt myMarkdownParse/markdown-parse/results1.txt`
 
 Now below, I have chosen 2 specific examples of where my markdownparse gave a different output than the instructors. 
 
